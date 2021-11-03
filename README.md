@@ -44,6 +44,8 @@ keystore.jks and truststore.jks in the ace-server directory (these are the newly
 
 
 Connect the toolkit to the server using 127.0.0.1:7600
+**NOTE: Remember to make sure that the SSL settings are correct for the signer cert**
+
 Run the test for the flow - which should work :-)
 
 Have fun!!!
