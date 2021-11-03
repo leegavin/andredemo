@@ -1,0 +1,8 @@
+ResourceManagers:
+  JVM:
+    keystoreType: 'JKS'
+    keystoreFile: '/home/aceuser/ace-server/keystore.jks'
+    keystorePass: 'setdbparms::truststore'
+    truststoreType: 'JKS'
+    truststoreFile: '/home/aceuser/ace-server/truststore.jks'
+    truststorePass: 'setdbparms::truststore'
