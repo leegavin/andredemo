@@ -32,7 +32,7 @@ ibmapiconnect.crt = signer certificate for the api
 *docker ps*
 
 **Run the image with the additional parameters required**\
-*docker run --name aceserver -p 7600:7600 -p 7800:7800 -p 7843:7843 --env LICENSE=accept --env ACE_SERVER_NAME=ACESERVER --mount type=bind,src=**/Users/gavinlee@uk.ibm.com/AndreiDemo/initial-config,dst=/home/aceuser/initial-config** --env ACE_TRUSTSTORE_PASSWORD=password --env ACE_KEYSTORE_PASSWORD=password ibmcom/ace-server:latest*
+*docker run --name aceserver -p 7600:7600 -p 7800:7800 -p 7843:7843 --env LICENSE=accept --env ACE_SERVER_NAME=ACESERVER --mount type=bind,src=**/Users/gavinlee@uk.ibm.com/AndreiDemo/initial-config**,dst=/home/aceuser/initial-config --env ACE_TRUSTSTORE_PASSWORD=password --env ACE_KEYSTORE_PASSWORD=password ibmcom/ace-server:latest*
 
 Make sure you are pointing at your local directory for the mount for the initial-config
 
