@@ -13,7 +13,6 @@ serverconf\
 setdbparms\
 truststore
 
-! (/images/initial-config.jpg)\
 
 **Add the files in the folders included into the matching folder:**\
 keystore:\
