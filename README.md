@@ -14,7 +14,7 @@ setdbparms\
 truststore
 
 
-**Add the files in the folders included into the matching folder:**\
+**Add the files from the folders in this repo into the matching folder:**\
 keystore:\
 myssl.crt = certificate\
 myssl.key = private key
