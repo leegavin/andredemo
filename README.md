@@ -16,16 +16,16 @@ truststore
 **Add the files in the folders included into the matching folder:**\
 keystore:\
 myssl.crt = certificate\
-myssl.key = private key\
+myssl.key = private key
 
 serverconf:\
-overrides for keystore and truststore\
+overrides for keystore and truststore
 
 setdbparms:\
-mqsisetdbparms to create JVM alias for keystore and truststore passwords\
+mqsisetdbparms to create JVM alias for keystore and truststore passwords
 
 truststore:\
-ibmapiconnect.crt = signer certificate for the api\
+ibmapiconnect.crt = signer certificate for the api
 
 **Ensure that you have no other aceserver container images running**\
 *docker ps*
